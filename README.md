@@ -3,8 +3,7 @@
 > Issue exploration + sentiment analysis agent for the 淡江大橋 case —
 > built as the second application of the `district-analyst` methodology.
 
-**上下文**：這是 dorian 為 **時代力量 AI 職位面試小作業** 建的 repo。
-面試指定題目：針對淡江大橋做議題探索與輿情分析，在報告書中說明
+題目：針對淡江大橋做議題探索與輿情分析，在報告書中說明
 AI 設計思路、並對時代力量的立場與下一步提出建議。
 
 **賣點不是題目本身，是方法**：這套 pipeline 能處理選區分析，
