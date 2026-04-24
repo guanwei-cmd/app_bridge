@@ -3,8 +3,7 @@
 > Issue exploration + sentiment analysis agent for the 淡江大橋 case —
 > built as the second application of the `district-analyst` methodology.
 
-**上下文**：這是 dorian 為 **時代力量 AI 職位面試小作業** 建的 repo。
-面試指定題目：針對淡江大橋做議題探索與輿情分析，在報告書中說明
+題目：針對淡江大橋做議題探索與輿情分析，在報告書中說明
 AI 設計思路、並對時代力量的立場與下一步提出建議。
 
 **賣點不是題目本身，是方法**：這套 pipeline 能處理選區分析，
@@ -148,22 +147,21 @@ bridge-analyst/
 
 | Day | 目標 | Status |
 |-----|------|--------|
-| 1 | CLAUDE.md + 事實包 + VSCode env | ✅ |
-| 2 | scraper：news + PTT | ⬜ |
-| 3 | DB schema + sentiment_extractor agent（extraction-only） | ⬜ |
-| 4 | issue_landscape agent | ⬜ |
-| 5 | 族群／立場 sentiment 分析跑完資料 | ⬜ |
-| 6 | NPP 歷史主張蒐集（`data/facts/npp_positions.md`） | ⬜ |
-| 7 | strategic_dialectic agent + A/B/C/D framing 驗證 | ⬜ |
-| 8 | HTML dashboard | ⬜ |
-| 9 | PDF 報告 | ⬜ |
-| 10 | 整體重跑 + trace 清理 + README 潤飾 | ⬜ |
+| 1 | CLAUDE.md + 事實包 + VSCode env |  |
+| 2 | scraper：news + PTT |  |
+| 3 | DB schema + sentiment_extractor agent（extraction-only） |  |
+| 4 | issue_landscape agent |  |
+| 5 | 族群／立場 sentiment 分析跑完資料 |  |
+| 6 | NPP 歷史主張蒐集（`data/facts/npp_positions.md`） |  |
+| 7 | strategic_dialectic agent + A/B/C/D framing 驗證 |  |
+| 8 | HTML dashboard |  |
+| 9 | PDF 報告 |  |
+| 10 | 整體重跑 + trace 清理 + README 潤飾 |  |
 
 ---
 
 ## Status
 
-目前已完成：CLAUDE.md、事實包 6 份、種子 URL、環境配置。
-下一步：Day 2 scraper 實作。
+
 
 詳細設計理念與政治敏感性考量見 `CLAUDE.md`。
