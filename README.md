@@ -147,22 +147,21 @@ bridge-analyst/
 
 | Day | 目標 | Status |
 |-----|------|--------|
-| 1 | CLAUDE.md + 事實包 + VSCode env | ✅ |
-| 2 | scraper：news + PTT | ⬜ |
-| 3 | DB schema + sentiment_extractor agent（extraction-only） | ⬜ |
-| 4 | issue_landscape agent | ⬜ |
-| 5 | 族群／立場 sentiment 分析跑完資料 | ⬜ |
-| 6 | NPP 歷史主張蒐集（`data/facts/npp_positions.md`） | ⬜ |
-| 7 | strategic_dialectic agent + A/B/C/D framing 驗證 | ⬜ |
-| 8 | HTML dashboard | ⬜ |
-| 9 | PDF 報告 | ⬜ |
-| 10 | 整體重跑 + trace 清理 + README 潤飾 | ⬜ |
+| 1 | CLAUDE.md + 事實包 + VSCode env |  |
+| 2 | scraper：news + PTT |  |
+| 3 | DB schema + sentiment_extractor agent（extraction-only） |  |
+| 4 | issue_landscape agent |  |
+| 5 | 族群／立場 sentiment 分析跑完資料 |  |
+| 6 | NPP 歷史主張蒐集（`data/facts/npp_positions.md`） |  |
+| 7 | strategic_dialectic agent + A/B/C/D framing 驗證 |  |
+| 8 | HTML dashboard |  |
+| 9 | PDF 報告 |  |
+| 10 | 整體重跑 + trace 清理 + README 潤飾 |  |
 
 ---
 
 ## Status
 
-目前已完成：CLAUDE.md、事實包 6 份、種子 URL、環境配置。
-下一步：Day 2 scraper 實作。
+
 
 詳細設計理念與政治敏感性考量見 `CLAUDE.md`。
