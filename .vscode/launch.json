@@ -1,0 +1,95 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "init_db — 建立 SQLite schema + 載入 seed facts",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.init_db",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "scrape_news — 爬新聞（Day 2）",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.data.scrapers.news",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["--seed", "data/sources/seed_urls.json", "--limit", "5"]
+        },
+        {
+            "name": "scrape_ptt — 爬 PTT（Day 2）",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.data.scrapers.ptt",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["--board", "HatePolitics", "--keyword", "淡江大橋", "--pages", "3"]
+        },
+        {
+            "name": "agent: issue_landscape — dry run",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.run_agent",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["--agent", "issue_landscape", "--dry-run"]
+        },
+        {
+            "name": "agent: issue_landscape — live (要 API key)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.run_agent",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["--agent", "issue_landscape"]
+        },
+        {
+            "name": "agent: sentiment_extractor — live",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.run_agent",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["--agent", "sentiment_extractor", "--batch-size", "20"]
+        },
+        {
+            "name": "agent: strategic_dialectic — live",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.run_agent",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "args": ["--agent", "strategic_dialectic"]
+        },
+        {
+            "name": "build_dashboard — Day 8 HTML 視覺化",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.build_dashboard",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "pytest — 當前檔案",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["${file}", "-v"]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- env / secrets ---
+.env
+.env.local
+
+# --- virtualenv ---
+.venv/
+venv/
+
+# --- 資料產物（raw scrape 結果太大，不 commit） ---
+data/raw/
+data/bridge.sqlite
+data/bridge.sqlite-*
+
+# --- agent trace（會含 LLM 回應，可能有 PII，選擇性 commit） ---
+# 手動決定哪些 trace 要進 git；預設全部忽略，需要時再 `git add -f`。
+data/traces/
+
+# --- 輸出報告（HTML / PDF / DOCX — 體積大） ---
+reports/*.html
+reports/*.pdf
+reports/*.docx
+# 但保留 .gitkeep / README / chapter 草稿 .md
+!reports/.gitkeep
+!reports/README.md
+!reports/ch*.md
+
+# --- 下載的 CJK 字型（可被 build_pdf.py 自動下載，不 commit 避免體積） ---
+fonts/
+
+# --- Surge 部署資料夾（build_docx 產出的暫存，不 commit） ---
+deploy/
+
+# --- IDE ---
+.idea/
+*.swp
+.DS_Store
+
+# 保留 .vscode/settings.json 和 launch.json（面試時 dev env 要對齊）

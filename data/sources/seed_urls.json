@@ -1,0 +1,210 @@
+{
+  "_meta": {
+    "description": "種子 URL — Day 2 scraper 的起點。這些是已經手工驗證過的新聞/討論來源，agent 從這裡開始展開。",
+    "last_updated": "2026-04-22"
+  },
+  "news_articles": [
+    {
+      "url": "https://cars.tvbs.com.tw/life/316968",
+      "source": "TVBS",
+      "title": "淡江大橋機車道寬2.5公尺爆爭議！民眾批像「狗道」",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane"
+    },
+    {
+      "url": "https://www.epochtimes.com/b5/26/4/21/n14746491.htm",
+      "source": "大紀元",
+      "title": "淡江大橋機車道寬度惹議 公路局：現行設計可符合未來交通量需求",
+      "date": "2026-04-21",
+      "topic": "motorcycle_lane_official"
+    },
+    {
+      "url": "https://udn.com/news/story/7323/9452758",
+      "source": "聯合報",
+      "title": "淡江大橋機車道窄如陷阱 陳世軒建議解編改成省道",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_tpp"
+    },
+    {
+      "url": "https://www.nownews.com/news/6808978",
+      "source": "NOWnews",
+      "title": "淡江大橋機車道寬2.5公尺！設計超窄原因曝光 路權團體轟：鬼扯",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_advocacy"
+    },
+    {
+      "url": "https://news.nextapple.com/life/20260420/0B14AA7965219C2665CE1A72F1800B37",
+      "source": "壹蘋",
+      "title": "淡江大橋機車道挨轟像「狗道」 公路局回應了",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane"
+    },
+    {
+      "url": "https://www.storm.mg/article/11123290",
+      "source": "風傳媒",
+      "title": "淡江大橋機車道太窄恐成奪命陷阱？陳世軒點出4大危機",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_critique"
+    },
+    {
+      "url": "https://udn.com/news/story/7266/9452470",
+      "source": "聯合報",
+      "title": "淡江大橋機車道挨批過窄 運安會：混合車道將納研討會研議",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_ttsb"
+    },
+    {
+      "url": "https://www.thenewslens.com/article/266874",
+      "source": "關鍵評論網",
+      "title": "淡江大橋機車道太窄惹議！公路局稱2.5公尺符合規範",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_summary"
+    },
+    {
+      "url": "https://www.ettoday.net/news/20260420/3152098.htm",
+      "source": "ETtoday",
+      "title": "立委建議淡江大橋「汽機車混流」 運安會納研討",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_kmt"
+    },
+    {
+      "url": "https://www.ettoday.net/news/20260421/3152994.htm",
+      "source": "ETtoday",
+      "title": "淡江大橋機車道「單線無法加寬」 公路局揭原因：風大＋流量夠",
+      "date": "2026-04-21",
+      "topic": "motorcycle_lane_official"
+    },
+    {
+      "url": "https://news.ltn.com.tw/news/NewTaipei/breakingnews/5409857",
+      "source": "自由時報",
+      "title": "淡江大橋機車道挨批過窄 陳世軒促解編成「省道」作解套",
+      "date": "2026-04-20",
+      "topic": "motorcycle_lane_tpp"
+    },
+    {
+      "url": "https://news.ltn.com.tw/news/NewTaipei/breakingnews/5411376",
+      "source": "自由時報",
+      "title": "淡江大橋學者：機車道規範合格 但公路局一定要做壓力測試",
+      "date": "2026-04-21",
+      "topic": "motorcycle_lane_academic"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-tw/%E6%B7%A1%E6%B1%9F%E5%A4%A7%E6%A9%8B",
+      "source": "維基百科",
+      "title": "淡江大橋",
+      "date": "持續更新",
+      "topic": "overview"
+    },
+    {
+      "url": "https://city.gvm.com.tw/article/129529",
+      "source": "城市學",
+      "title": "流標7次也要做！淡江大橋背後的堅持與代價",
+      "date": "2025",
+      "topic": "history_budget"
+    },
+    {
+      "url": "https://www.cw.com.tw/article/5140714",
+      "source": "天下雜誌",
+      "title": "淡江大橋通車倒數，流標7次的不可能設計",
+      "date": "2025",
+      "topic": "history_engineering"
+    },
+    {
+      "url": "https://www.gvm.com.tw/article/129514",
+      "source": "遠見雜誌",
+      "title": "淡江大橋通車倒數！過去曾7度流標",
+      "date": "2025",
+      "topic": "history_budget"
+    },
+    {
+      "url": "https://estate.ltn.com.tw/article/25643",
+      "source": "自由時報地產版",
+      "title": "橋通了、人來了？代銷坦言：淡江大橋利多還沒發酵",
+      "date": "2026",
+      "topic": "real_estate"
+    },
+    {
+      "url": "https://www.cna.com.tw/news/ahel/202511280361.aspx",
+      "source": "中央社",
+      "title": "淡江大橋2026年將通車 公路局規劃5大活動",
+      "date": "2025-11-28",
+      "topic": "official_events"
+    }
+  ],
+  "ptt_boards": [
+    {
+      "board": "HatePolitics",
+      "keyword": "淡江大橋",
+      "note": "政治版 — 立場明確，情緒強"
+    },
+    {
+      "board": "Gossiping",
+      "keyword": "淡江大橋",
+      "note": "八卦版 — 基數大，訊噪比低"
+    },
+    {
+      "board": "biker",
+      "keyword": "淡江大橋",
+      "note": "機車版 — 專業用戶觀點，品質高"
+    },
+    {
+      "board": "car",
+      "keyword": "淡江大橋",
+      "note": "汽車版 — 汽車族觀點"
+    },
+    {
+      "board": "Road",
+      "keyword": "淡江大橋",
+      "note": "道路專版 — 技術觀點"
+    },
+    {
+      "board": "MRT",
+      "keyword": "淡江大橋",
+      "note": "捷運版 — 大眾運輸觀點（輕軌/公車配套）"
+    },
+    {
+      "board": "home-sale",
+      "keyword": "淡江大橋",
+      "note": "房市版 — 淡海新市鎮相關"
+    },
+    {
+      "board": "Bus",
+      "keyword": "淡江大橋",
+      "note": "公車版 — 公運配套"
+    }
+  ],
+  "official_documents": [
+    {
+      "url": "https://thbwcn.thb.gov.tw/cp.aspx?n=5424",
+      "source": "公路局北區公路新建工程分局",
+      "title": "淡江大橋計畫簡介",
+      "topic": "official"
+    },
+    {
+      "url": "https://wedid.ntpc.gov.tw/Governance/Detail/WEGVlKanPBMe",
+      "source": "新北市政府施政成果網",
+      "title": "淡江大橋",
+      "topic": "local_gov"
+    },
+    {
+      "url": "https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNTY4Ny8zNDc5OS84NzJkNDllYy1kYTRjLTQwMjktOWI1Zi1iMGI4NzA5YjMyYWMucGRm",
+      "source": "國發會",
+      "title": "109年度行政院管制「淡江大橋及其連絡道路建設計畫」",
+      "topic": "official_audit"
+    }
+  ],
+  "youtube_videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=kJC0Qzmi934",
+      "source": "陳世軒頻道",
+      "title": "淡江大橋機車道恐成奪命陷阱！設計大師都要氣到從墳墓跳出來",
+      "topic": "motorcycle_lane_tpp"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YZWvusmcjGA",
+      "source": "黃國昌相關",
+      "title": "黃國昌被震撼到了！年輕人當場爆譙交通部長陳世凱！淡江大橋竟成奪命橋！",
+      "topic": "motorcycle_lane_tpp"
+    }
+  ]
+}
